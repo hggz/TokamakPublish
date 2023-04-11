@@ -1,10 +1,10 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.6
 
 import PackageDescription
 
 let package = Package(
   name: "TokamakPublish",
-  platforms: [.macOS(.v11)],
+  platforms: [.macOS(.v12)],
   products: [
     .library(
       name: "TokamakPublish",
